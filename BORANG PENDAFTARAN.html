@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Borang Pendaftaran</h2>
+
+    <form action="https://dev.fare4z.com" method="POST" enctype="multipart/form-data" name="borang">
+        
+        <p>
+        <label for="name" >Nama Peserta :</label>
+        <input type="text" id="nama" name="Nama" placeholder = "Nama Peserta" required>
+        </p>
+
+        <p>
+            <label for="name" >Nombor Kad Pengenalan :</label>
+            <input type="text" id="nama" name="Nama" placeholder = "NO IC" required>
+        </p>
+
+        <p>
+            <label for="dob">Tarikh Lahir :</label>
+            <input type="date" name="dob">
+        </p>
+
+        <p>
+            <label for="name" >Umur: </label>
+            <input type="text" id="nama" name="Nama" placeholder = "Masukkan Umur" required>
+        </p>
+
+        <p>
+            <label for="gender">Jantina: </label>
+            <input type="radio" name="gender" value="Lelaki">Lelaki
+            <input type="radio" name="gender" value="Perempuan">Perempuan
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" placeholder="Email Address">
+        </p>
+        
+        <p>
+            <label for="phone">Nombor Telefon:</label>
+            <input type="text" value="">
+        </p>
+
+        <p>
+            <label for="message">Alamat Rumah:</label>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <label for="Status">Status Pelajar:</label>
+            <select name="Status">
+                <option value="Pilih">-- Sila Pilih --</option>
+                <option value="Aktif">Aktif</option>
+                <option value="Tidak Aktif">Tidak Aktif</option>
+            </select>
+        </p>
+
+        <p>
+            <laber for="Kemahiran">Kemahiran:</laber> 
+            <input type="checkbox" value="JTMK" name="department[]">JTMK 
+            <input type="checkbox" value="JP" name="department[]">JP 
+            <input type="checkbox" value="JKE" name="department[]">JKE
+            <input type="checkbox" value="JKM" name="department[]">JKM 
+        </p>
+
+        <p>
+            <label for="Profile">Gambar Profile</label>
+            <input type="file" name="uploadedfile">
+        </p>
+
+
+        <p>
+        <label for="Katalaluan">Kata Laluan:</laber>
+        <input type="password" name="KataLaluan" placeholder = "Enter your password" required>
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+            <button type="submit">Kosongkan</button>
+        </p>
+
+    </form>
+    
+</body>
+</html>
