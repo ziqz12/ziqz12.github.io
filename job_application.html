@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightgrey">
+    <h2>JOB APPLICATION</h2>
+    <form action="https://dev.fare4z.com" method="GET" enctype="multipart/form-data" name="JOB APPLICATION">
+        <p>
+            <label for="name" >Full Name :</label>
+            <input type="text" id="NAME" name="Full Name" placeholder="Full Name" required>
+        </p>
+
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="email" name="Email Address" placeholder="Email Address" required>
+        </p>
+
+        <p>
+            <label for="phone">Phone Number:</label>
+            <input type="text" value="">
+        </p>
+
+        <p>
+            <label for="Position">Position Apllied for:</label>
+            <select name="Position">
+                <option value="Choose">-- Choose --</option>
+                <option value="Executive">Executive</option>
+                <option value="Non-Executive">Non-Executive</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="dob">Available Start Date:</label>
+            <input type="date" name="Start Date">
+        </p>
+
+        <p>
+            <label for="File">Resume Upload:</label> <br>
+            <input type="file" name="uploadedfile">
+        </p>
+
+        <p>
+            <label for="Message">Cover Letter:</label> <br>
+            <textarea id="message" name="Message" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <label for="Type">Employment Type Preferences: </label> <br>
+            <input type="radio" name="Type" value="Full Time">Full Time <br>
+            <input type="radio" name="Type" value="Part Time">Part Time <br>
+            <input type="radio" name="Type" value="Internship">Intership
+        </p>
+
+        <p>
+            <label for="Skills">Skills:</laber> <br>
+            <input type="checkbox" value="HTML" name="Skills[]">HTML <br>
+            <input type="checkbox" value="CSS" name="Skills[]">CSS <br>
+            <input type="checkbox" value="JavaScript" name="Skills[]">JavaScript <br>
+            <input type="checkbox" value="Python" name="Skills[]">Python <br>
+            <input type="checkbox" value="Other" name="Skills[]">Other
+        </p>
+
+        <p>
+            <button type="submit">SUBMIT</button>
+        </p>
+
+
+        
+
+
+    
+</body>
+</html>
